@@ -456,7 +456,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
 
 # Load dataset
-file_path = '/content/Customer Purchasing Behaviors.csv'
+file_path = 'Customer Purchasing Behaviors.csv'
 data = pd.read_csv(file_path)
 
 # Preview the dataset
