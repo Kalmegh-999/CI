@@ -315,7 +315,7 @@ plt.show()
 """# **Compare scores**"""
 
 models = {
-    "KMeans": sil_score_kmeans,
+    "KMeans": sil_score,
     "Agglomerative Clustering": sil_score_agglo,
     "Gaussian Mixture": sil_score_gmm
 }
