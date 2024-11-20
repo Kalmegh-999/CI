@@ -188,7 +188,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Train multiple models
 models = {
-    "Logistic Regression": LogisticRegression(max_iter=500,solver = 'saga'),
+    "Logistic Regression": LogisticRegression(max_iter=5000,solver = 'liblinear'),
     "Random Forest Classifier": RandomForestClassifier(random_state=42)
 }
 
