@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-data = pd.read_csv('/content/Customer Purchasing Behaviors.csv')
+data = pd.read_csv('Customer Purchasing Behaviors.csv')
 
 # Display the first few rows of the data
 print("First 5 Rows of the Dataset:")
