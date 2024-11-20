@@ -227,8 +227,8 @@ kmeans = KMeans(n_clusters=3, random_state=42)
 clusters = kmeans.fit_predict(X_scaled)
 
 # Evaluate clustering
-sil_score = silhouette_score(X_scaled, clusters)
-print(f"KMeans Silhouette Score: {sil_score:.2f}")
+sil_score_kmeans = silhouette_score(X_scaled, clusters)
+print(f"KMeans Silhouette Score: {sil_score_kmeans:.2f}")
 
 # Add cluster labels to the dataset
 data['cluster'] = clusters
